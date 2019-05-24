@@ -1,0 +1,88 @@
+html {
+    background-color: black;
+}
+h1 {
+    text-align: center;
+    color: white;
+    animation: colors 5s infinite
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+.n1 {
+    width: 200px;
+   border-color: #ac0091;
+    border-style: solid;
+    border-size: 10px;
+    border-radius: 50%;
+    margin-left:41vw;
+}
+.n2 {
+    width: 300px;
+   border-color: #ac0091;
+    border-style: solid;
+    border-size: 10px;
+    border-radius: 50%;
+    margin-left:38vw;
+}
+.hdr {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.s1 {
+    display: flex;
+    margin-top: 10px;
+}
+.c1 {
+    background-color: #ac0091;
+    width: 400px;
+    margin: 10px auto;
+    border-radius: 10%;
+}
+.m1 {
+    margin-left: 35vw;
+    width: 400px;
+    display: flex;
+}
+.m2 {
+    color: white;
+    text-align: center;
+}
+a {
+    color: white;
+    font-size: 30px;
+}
+a:hover {
+    font-size: 35px;
+}
+.rec {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+img {
+    width: 400px;
+    border-radius: 20%;
+    margin: 4px;
+}
+.jir {
+    width: 100%;
+}
+.hdr2 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border-size: 2px;
+    border-color: #ac0091;
+}
+.hh {
+     animation: colors 5s infinite
+    }
+@keyframes colors{
+    0%, 100% {color:aliceblue;}
+    25% {color:azure;}
+    50% {color:blueviolet;}
+    75% {color:white;}
